@@ -1,6 +1,6 @@
 import pandas as pd
 # Assuming they wrote a prediction script in src/evaluate_model.py
-from src.evaluate_model import load_model_and_predict
+from src.EvaluateModel import load_model_and_predict
 
 def test_model_loading_and_prediction():
     # 1. Create a dummy patient row that matches the heart failure dataset columns
